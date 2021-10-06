@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    
+}
+body{
+    min-width:100%;
+    background-color:lightgrey;
+}
+.wrapper
+{
+    width:1000px;
+    background-color:wheat;
+    padding:10px;
+    margin:20px auto;
+}
+.container
+{
+    width: 100%;
+    margin:0 auto;
+    border-collapse: collapse;
+}
+.basic
+{
+    background-color:lightpink;
+}
+.plus
+{
+    background-color:lightsteelblue;
+}
+.delux
+{
+    background-color: lightyellow;
+}
+.pro
+{
+    background-color: rgb(158, 233, 229);
+}
+.container td,  .container th
+{
+    width:180px;
+    padding:8px 5px;
+    text-align: center;
+    border-right: 2px solid white;
+    border-left:2px solid white;
+}
+.container th
+{
+    height:70px;
+    color: rgb(27, 6, 27);
+    font-size:50px;
+}
+i{
+    font-size:50px;
+    color: rgb(27, 6, 27);
+    margin-right:10px;
+}
+tbody tr:nth-child(odd),
+tfoot tr:nth-child(odd)
+{
+    background-color: rgb(240, 222, 238);
+}
+tfoot tr
+{
+    line-height:70px;
+}
+a
+{
+    text-decoration: none;
+    background-color:rgb(27, 6, 27); ;
+    padding:15px 25px;
+    color: white;
+    border-radius: 10px;
+    font-size:28px;
+    vertical-align: bottom;
+}
+a:hover
+{
+    background-color:red;
+}
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+tbody tr:first-child td
+{
+    font-size:35px;
+    color: green;
+}
